@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(6, 6, 49);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+
+nav ul li a{
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(96, 82, 188);
+  font-size: 1.1rem;
+}
+main hr{
+  border: 0;
+  background-color: #2d2d8d;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.left {
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    /* background-color:brown; */
+    width: 20%;
+    font-size: 3rem;
+    /* text-align: start; */
+} 
+.leftSection .btn{
+  padding: 12px;
+  background-color: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+} 
+.rightSection img{
+    width: 80% ;
+    margin: 50px 0;
+}
+
+.newColor{
+  color: blue;
+}
+
+#element{
+  color: blue
+}
+
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1{
+  font-size: 2rem;
+}
+.secondSection .box{
+  background-color: white;
+  /* width: 80vh; */
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.gray{
+  color: gray;
+}
+.secondSection .vertical{
+height: 93px;
+width: 1px;
+background:white;
+margin: 0 100px;
+}
+.imgpng{
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.verticalTitle{
+position: relative;
+top: 75px;
+width: 150px;
+}
+.vertical-desc{
+  position: relative;
+  top: 88px;
+  width: 150px;
+  font-size: 9px;
+  color: gray;
+
+}
+footer{
+  background-color: rgb(6, 6, 15);
+  /* height: 233px; */
+}
+.footer{
+  display: flex;
+  margin: 70px 120px;
+  padding: 25px;
+  justify-content: space-evenly;
+
+}
+footer ul {
+  list-style: none;
+}
+.footer > div{
+  width: 220px;
+}
+footer .footer-rights{
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
